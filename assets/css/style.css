@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -353,7 +353,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
   bottom: 0;
   top: 0;
@@ -365,7 +364,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 #hero p {
@@ -374,6 +373,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+    font-weight: 300;
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
@@ -389,13 +389,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -657,6 +657,7 @@ section {
 .why-us .container {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
   background: #fff;
+  height: 100%;
 }
 
 .why-us .icon-box + .icon-box {
@@ -2027,7 +2028,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #0b212d;
-  padding: 0 0 30px 0;
+  padding: 0 0 15px 0;
   color: #fff;
   font-size: 14px;
 }
@@ -2116,11 +2117,12 @@ section {
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 5%;
   text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  margin-bottom:7px;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -2185,7 +2187,7 @@ section {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 #footer .credits {
