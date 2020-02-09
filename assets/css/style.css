@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: none;
   width: 40px;
   height: 40px;
-  border-radius: 3px;
+  border-radius: 5px;
   right: 15px;
   bottom: 15px;
   background: #68A4C4;
@@ -1149,12 +1149,12 @@ section {
   background: #1e4356;
   display: inline-block;
   padding: 6px 30px;
-  border-radius: 20px;
+  border-radius: 5px;
   color: #fff;
   transition: none;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
   transition: 0.3s;
 }
 
